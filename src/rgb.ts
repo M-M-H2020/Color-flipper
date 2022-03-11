@@ -1,4 +1,4 @@
-import { btn, color } from './elements'
+import { btn, color } from './utils/elements'
 
 btn.addEventListener('click', () => {
     let red = Math.floor(Math.random() * 256)
